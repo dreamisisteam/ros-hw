@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="hw4_service" type="server.py" name="beep_and_capture_server"/>
+    <node pkg="hw4_service" type="client.py" name="client"/>
+</launch>

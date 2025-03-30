@@ -1,0 +1,9 @@
+uint32 count
+
+---
+
+sensor_msgs/Image shot
+
+---
+
+audio_common_msgs/AudioDataStamped beep

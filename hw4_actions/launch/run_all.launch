@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="hw4_actions" type="server.py" name="delayed_shot_server"/>
+    <node pkg="hw4_actions" type="client.py" name="delayed_shot_client"/>
+</launch>

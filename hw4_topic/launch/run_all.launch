@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="hw4_topic" type="audio_publisher.py" name="audio_publisher"/>
+    <node pkg="hw4_topic" type="camera_publisher.py" name="camera_publisher"/>
+    <node pkg="hw4_topic" type="consumer.py" name="hw4_topic_consumer"/>
+</launch>
