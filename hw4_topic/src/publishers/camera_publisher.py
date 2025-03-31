@@ -35,7 +35,7 @@ class CameraPublisherRunner(BasePublisherRunner):
                     rospy.logwarn(f'Пропуск фрейма: {idx}.')
                     continue
 
-                image = bridge.cv2_to_imgmsg(frame)
+                image = bridge.cv2_to_imgmsg(frame, encoding='bgr8')
 
                 rospy.loginfo('Кадр будет отправлен в топик.')
                 self._publisher.publish(image)

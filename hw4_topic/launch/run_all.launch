@@ -2,4 +2,5 @@
     <node pkg="hw4_topic" type="audio_publisher.py" name="audio_publisher"/>
     <node pkg="hw4_topic" type="camera_publisher.py" name="camera_publisher"/>
     <node pkg="hw4_topic" type="consumer.py" name="hw4_topic_consumer"/>
+    <node pkg="rosbag" type="record" args="record -a" name="bagrecorder"/>
 </launch>

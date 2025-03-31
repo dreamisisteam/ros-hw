@@ -57,8 +57,8 @@ if __name__ == '__main__':
 
     sync = ApproximateTimeSynchronizer(
         [image_sub, audio_sub],
-        queue_size=1,
-        slop=1,
+        queue_size=10,
+        slop=0.1,
     )
     sync.registerCallback(callback)
 
